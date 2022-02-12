@@ -1,0 +1,140 @@
+
+body{
+    text-align: center;
+    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+}
+.header {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+ul {
+    list-style-type: none; 
+}
+.links {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    margin-left: auto;
+}
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+}
+
+h1 {
+    margin: 30px;
+}
+img {
+    width: 120px;
+    height: 150px;
+}
+.first {
+    background-color: #1f2937;
+    display: flex;
+    gap: 40px;
+}
+.lefthalf {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px 40px 40px 200px;
+    text-align: start;
+    gap: 10px;
+}
+.lefthalftitle {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+    display: flex;
+    
+}
+.righthalf {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    margin-right: 100px;
+}
+.dogs {
+    width: 500px;
+    height: 250px;
+    margin: 50px;
+}
+.display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 60px;
+    flex-wrap: wrap;
+}
+.ill {
+    max-width: 120px;
+    flex-wrap: wrap;
+}
+.second-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 32px;
+}
+.third {
+    display: flex;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    padding: 100px 250px;
+    flex-direction: column;
+    text-align: left;
+}
+.signature{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #3882f6;
+    padding: 40px;
+    margin: 50px 200px;
+    border-radius: 8px;
+    color: #e5e7eb;
+    flex: 2;
+    gap: 150px;
+}
+#cta-title{
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 800;
+}
+/*.cta #cta-button{
+    border: #F9FAF8;
+    margin-left: 30px;
+}*/
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    padding: 20px;
+    margin-top: 30px;
+    position: relative;
+}
